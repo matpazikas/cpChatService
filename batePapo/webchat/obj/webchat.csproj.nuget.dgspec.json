@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\webchat.csproj": {}
+    "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\webchat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\webchat.csproj": {
+    "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\webchat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\webchat.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\webchat.csproj",
         "projectName": "webchat",
-        "projectPath": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\webchat.csproj",
+        "projectPath": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\webchat.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

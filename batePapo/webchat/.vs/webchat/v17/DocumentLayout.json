@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\",
+  "WorkspaceRootPath": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|c:\\users\\mathe\\git\\fullweb\\batepapo\\webchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|c:\\users\\mathe\\git\\cpchatservice\\batepapo\\webchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|c:\\users\\mathe\\git\\fullweb\\batepapo\\webchat\\myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|solutionrelative:myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|c:\\users\\mathe\\git\\cpchatservice\\batepapo\\webchat\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|c:\\users\\mathe\\git\\fullweb\\batepapo\\webchat\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|c:\\users\\mathe\\git\\cpchatservice\\batepapo\\webchat\\myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89521B27-F489-4DDF-90C1-C054B2B76404}|webchat.csproj|solutionrelative:myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,42 +26,40 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-09T23:28:06.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T23:28:06.27Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\Program.cs",
+              "ToolTip": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T23:24:58.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MyHub.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\MyHub.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\MyHub.cs",
               "RelativeDocumentMoniker": "MyHub.cs",
-              "ToolTip": "C:\\Users\\mathe\\git\\fullWeb\\batePapo\\webchat\\MyHub.cs",
+              "ToolTip": "C:\\Users\\mathe\\git\\cpChatService\\batePapo\\webchat\\MyHub.cs",
               "RelativeToolTip": "MyHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:23:55.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T23:23:55.322Z"
             }
           ]
         }

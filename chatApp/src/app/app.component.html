@@ -1,11 +1,14 @@
 
-<div>
-  <div *ngFor="let mensagem of mensagens">
+<h1 class="text-light m-5">Chat Online</h1>
+<div class="container d-flex flex-column justify-content-center align-items-center">
+  <div class="text-light py-1" *ngFor="let mensagem of chatService.mensagens">
     {{mensagem}}
   </div>
-
-  <textarea [(ngModel)] = "novaMensagem"></textarea>
-  <button (click)="enviarMensagem()">Enviar</button>
+  <div class="form-floating my-3">
+  <textarea class="form-control bg-dark text-light" style="width: 500px; height: 100px;" id="Mensagem" [(ngModel)]="chatService.novaMensagem"></textarea> 
+  <label for="Mensagem">Mensagem</label>
+</div>
+  <button class="btn btn-success fs-2 w-25" (click)="enviarMensagem()">Enviar</button>
 </div>
 
 <router-outlet></router-outlet>

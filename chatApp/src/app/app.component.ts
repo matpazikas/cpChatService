@@ -1,8 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
+import { ChatService } from './services/chat.service';
 
 @Component({
   selector: 'app-root',
@@ -12,31 +13,16 @@ import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  private hubConnection : HubConnection;
-  mensagens:string[] = [];
-  title = 'chatApp';
-  novaMensagem?:string;
 
-  constructor() {
-    this.hubConnection = new HubConnectionBuilder()
-    .withUrl("http://localhost:7033/chat")
-    .build()
+  constructor (protected chatService: ChatService) {}
 
-    this.hubConnection.start()
-    .then(() => console.log('SignalR connected'))
-    .catch(err => console.log('erro ao conectar', err))
-
-    this.hubConnection.on("ReceberMensagem", (mensagem:string) => {
-      console.log(`Mensagem recebida: ${mensagem}`)
-      this.mensagens.push(mensagem)
-    })
-
-  }
+  // ngOnInit() {
+  //   this.enviarMensagem();
+  // }
 
   enviarMensagem() {
-   this.hubConnection.invoke("EnviarMensagem", this.novaMensagem)
-   .catch(err => (console.log(err)));
-   
-   this.novaMensagem = ""
+    // Chama o método do serviço para enviar uma mensagem
+    this.chatService.enviarMensagem();
   }
+  
 }
